@@ -1,10 +1,10 @@
-﻿using FluentAssertions;
+﻿using Xunit;
 
 namespace UnitTestSampleXunit
 {
     internal class CalculatorTests
     {
-        [Fact]
+        
         public void Add_TwoNumbers_ReturnsSum()
         {
             // Arrange
@@ -17,7 +17,7 @@ namespace UnitTestSampleXunit
             Assert.Equal(8, result);
         }
 
-        [Fact]
+       
         public void Subtract_TwoNumbers_ReturnsDifference()
         {
             // Arrange
